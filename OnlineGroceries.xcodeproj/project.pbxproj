@@ -21,6 +21,12 @@
 		AB304E482C297CFE00DC94D6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E472C297CFE00DC94D6 /* SignInView.swift */; };
 		AB304E4B2C29830100DC94D6 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = AB304E4A2C29830100DC94D6 /* CountryPicker */; };
 		AB304E4D2C29837200DC94D6 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E4C2C29837200DC94D6 /* CountryPickerUI.swift */; };
+		AB304E4F2C29AF9D00DC94D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E4E2C29AF9D00DC94D6 /* LoginView.swift */; };
+		AB304E512C29B46000DC94D6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E502C29B46000DC94D6 /* MainViewModel.swift */; };
+		AB304E532C29B56200DC94D6 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E522C29B56200DC94D6 /* LineTextField.swift */; };
+		AB304E552C2B059C00DC94D6 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E542C2B059C00DC94D6 /* ServiceCall.swift */; };
+		AB304E572C2B0F3900DC94D6 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E562C2B0F3900DC94D6 /* Globs.swift */; };
+		AB304E5A2C2B12E100DC94D6 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E592C2B12E100DC94D6 /* UIKitExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,12 @@
 		AB304E452C297B5900DC94D6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		AB304E472C297CFE00DC94D6 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		AB304E4C2C29837200DC94D6 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		AB304E4E2C29AF9D00DC94D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AB304E502C29B46000DC94D6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AB304E522C29B56200DC94D6 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		AB304E542C2B059C00DC94D6 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		AB304E562C2B0F3900DC94D6 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		AB304E592C2B12E100DC94D6 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 		AB304E182C296E0E00DC94D6 /* OnlineGroceries */ = {
 			isa = PBXGroup;
 			children = (
+				AB304E582C2B12BC00DC94D6 /* Common */,
 				AB304E3D2C2971F400DC94D6 /* UICommon */,
 				AB304E3C2C2971D000DC94D6 /* ViewModel */,
 				AB304E3B2C2971CA00DC94D6 /* Model */,
@@ -123,6 +136,7 @@
 		AB304E3C2C2971D000DC94D6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AB304E502C29B46000DC94D6 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -133,6 +147,9 @@
 				AB304E432C29763700DC94D6 /* UIExtension.swift */,
 				AB304E452C297B5900DC94D6 /* RoundButton.swift */,
 				AB304E4C2C29837200DC94D6 /* CountryPickerUI.swift */,
+				AB304E522C29B56200DC94D6 /* LineTextField.swift */,
+				AB304E542C2B059C00DC94D6 /* ServiceCall.swift */,
+				AB304E562C2B0F3900DC94D6 /* Globs.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -142,8 +159,17 @@
 			children = (
 				AB304E3F2C29723200DC94D6 /* WelcomeView.swift */,
 				AB304E472C297CFE00DC94D6 /* SignInView.swift */,
+				AB304E4E2C29AF9D00DC94D6 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		AB304E582C2B12BC00DC94D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB304E592C2B12E100DC94D6 /* UIKitExtension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,11 +254,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB304E4D2C29837200DC94D6 /* CountryPickerUI.swift in Sources */,
+				AB304E532C29B56200DC94D6 /* LineTextField.swift in Sources */,
+				AB304E4F2C29AF9D00DC94D6 /* LoginView.swift in Sources */,
+				AB304E572C2B0F3900DC94D6 /* Globs.swift in Sources */,
 				AB304E462C297B5900DC94D6 /* RoundButton.swift in Sources */,
 				AB304E1A2C296E0E00DC94D6 /* OnlineGroceriesApp.swift in Sources */,
+				AB304E5A2C2B12E100DC94D6 /* UIKitExtension.swift in Sources */,
 				AB304E442C29763700DC94D6 /* UIExtension.swift in Sources */,
 				AB304E402C29723200DC94D6 /* WelcomeView.swift in Sources */,
+				AB304E552C2B059C00DC94D6 /* ServiceCall.swift in Sources */,
 				AB304E482C297CFE00DC94D6 /* SignInView.swift in Sources */,
+				AB304E512C29B46000DC94D6 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
