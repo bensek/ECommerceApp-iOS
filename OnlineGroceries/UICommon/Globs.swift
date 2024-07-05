@@ -14,6 +14,8 @@ struct Globs {
     
     static let SV_LOGIN = BASE_URL + "auth/login"
     
+    static let SV_REGISTER = BASE_URL + "auth/register"
+    
 }
 
 struct KKey {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB25B8472C2EF43300B5272C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB25B8462C2EF43300B5272C /* MainTabView.swift */; };
 		AB304E1A2C296E0E00DC94D6 /* OnlineGroceriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E192C296E0E00DC94D6 /* OnlineGroceriesApp.swift */; };
 		AB304E1E2C296E1000DC94D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB304E1D2C296E1000DC94D6 /* Assets.xcassets */; };
 		AB304E212C296E1000DC94D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB304E202C296E1000DC94D6 /* Preview Assets.xcassets */; };
@@ -27,9 +28,11 @@
 		AB304E552C2B059C00DC94D6 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E542C2B059C00DC94D6 /* ServiceCall.swift */; };
 		AB304E572C2B0F3900DC94D6 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E562C2B0F3900DC94D6 /* Globs.swift */; };
 		AB304E5A2C2B12E100DC94D6 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E592C2B12E100DC94D6 /* UIKitExtension.swift */; };
+		AB304E5E2C2B194800DC94D6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304E5D2C2B194800DC94D6 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB25B8462C2EF43300B5272C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		AB304E162C296E0E00DC94D6 /* OnlineGroceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB304E192C296E0E00DC94D6 /* OnlineGroceriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesApp.swift; sourceTree = "<group>"; };
 		AB304E1D2C296E1000DC94D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		AB304E542C2B059C00DC94D6 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 		AB304E562C2B0F3900DC94D6 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
 		AB304E592C2B12E100DC94D6 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		AB304E5D2C2B194800DC94D6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AB304E3E2C29722000DC94D6 /* Login */,
+				AB25B8462C2EF43300B5272C /* MainTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				AB304E3F2C29723200DC94D6 /* WelcomeView.swift */,
 				AB304E472C297CFE00DC94D6 /* SignInView.swift */,
 				AB304E4E2C29AF9D00DC94D6 /* LoginView.swift */,
+				AB304E5D2C2B194800DC94D6 /* SignUpView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 				AB304E1A2C296E0E00DC94D6 /* OnlineGroceriesApp.swift in Sources */,
 				AB304E5A2C2B12E100DC94D6 /* UIKitExtension.swift in Sources */,
 				AB304E442C29763700DC94D6 /* UIExtension.swift in Sources */,
+				AB304E5E2C2B194800DC94D6 /* SignUpView.swift in Sources */,
 				AB304E402C29723200DC94D6 /* WelcomeView.swift in Sources */,
 				AB304E552C2B059C00DC94D6 /* ServiceCall.swift in Sources */,
+				AB25B8472C2EF43300B5272C /* MainTabView.swift in Sources */,
 				AB304E482C297CFE00DC94D6 /* SignInView.swift in Sources */,
 				AB304E512C29B46000DC94D6 /* MainViewModel.swift in Sources */,
 			);

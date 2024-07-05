@@ -58,19 +58,23 @@ struct LoginView: View {
                 .padding(.bottom, .screenWidth * 0.05)
                 
                 RoundButton(title: "Log In") {
-                    loginVM.serviceCallLogin()
-                    
+                    //loginVM.serviceCallLogin()
+                    loginVM.isUserLoggedIn = true
                 }
                 .padding(.bottom, .screenWidth * 0.05)
                 
-                HStack {
-                    Text("Don't have an account?")
-                        .font(.customfont(.semibold, fontSize: 14))
-                        .foregroundColor(.primaryText)
-                    
-                    Text("Signup")
-                        .font(.customfont(.semibold, fontSize: 14))
-                        .foregroundColor(.primaryApp)
+                NavigationLink {
+                    SignUpView()
+                } label: {
+                    HStack {
+                        Text("Don't have an account?")
+                            .font(.customfont(.semibold, fontSize: 14))
+                            .foregroundColor(.primaryText)
+                        
+                        Text("Signup")
+                            .font(.customfont(.semibold, fontSize: 14))
+                            .foregroundColor(.primaryApp)
+                    }
                 }
                 
                 Spacer()
@@ -90,6 +94,7 @@ struct LoginView: View {
                             .scaledToFit()
                             .frame(width: 20, height: 20, alignment: .leading)
                     }
+                    Spacer()
                     
                 }
                 
@@ -112,6 +117,8 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        NavigationView {
+            LoginView()
+        }
     }
 }
